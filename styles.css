@@ -41,16 +41,17 @@ img {
     display: flex;
     flex-direction: column;
     max-width: 300px;
+    gap: 8px;
 }
 
 .left-side p,
 .left-side h1 {
     color: white;
-    margin: 2px;
+    margin: 4px;
 }
 
 .left-side button {
-    margin: 8px;
+    margin: 16px;
 }
 
 .random-info {
@@ -64,6 +65,7 @@ img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 64px;
 }
 
 .cards img {
@@ -86,6 +88,7 @@ img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 64px;
 }
 
 .quote p {
@@ -119,4 +122,55 @@ img {
     align-items: center;
     flex-wrap: wrap;
     gap: 32px;
+}
+
+.signup {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 64px;
+}
+
+.signup-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    max-width: 1000px;
+    padding: 32px;
+    border: 4px solid #3882f6;
+    border-radius: 16px;
+    background-color: #3882f6;
+    color: white;
+}
+
+.signup-box button {
+    color: white;
+    background-color: #3882f6;
+    border: 2px solid white;
+    border-radius: 4px;
+    padding: 1em;
+    font-size: large;
+    font-weight: bold;
+}
+
+.title button {
+    color: white;
+    background-color: #1f2937;
+    border: 2px solid white;
+    border-radius: 4px;
+    padding: 1em;
+    font-size: large;
+    font-weight: bold;
+    max-width: fit-content;
+    margin: auto;
+}
+
+.footer {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 1em;
 }
