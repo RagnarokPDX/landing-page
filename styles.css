@@ -1,9 +1,48 @@
 
 img {
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
 }
+
+ ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+ }
+
+ a {
+    text-decoration: none;
+    color: white;
+ }
 
 .title {
     background: #1f2937;
+    display: flex;
+}
+
+.random-info {
+    display: flex;
+}
+
+.header {
+    display: flex;
+    background-color: #1f2937;
+    margin: 0px;
+}
+
+.body {
+    margin: 0px;
+}
+
+.random {
+    display: flex;
+    flex-direction: column;
+}
+
+.random-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 32px;
 }
